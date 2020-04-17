@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json Project</title>
+</head>
+<body>
+    <h1>Json Project</h1>
+    <p>Best company of the year: </p>
+    <p id="output"></p> 
+    <script type="text/javascript">
+        let companies =
+        `[
+            {
+                "name": "Suju Ent",
+                "numberOfEmployees": 100,
+                "ceo": "Mr Cho",
+                "rating": 4.5
+            },
+            {
+                "name": "Bangtan Corporation",
+                "numberOfEmployees": 71,
+                "ceo": "Hitman",
+                "rating": 2.1
+            },
+            {
+                "name": "Big Corporation",
+                "numberOfEmployees": 1000,
+                "ceo": "Ana",
+                "rating": 3.2
+            },
+            {
+                "name": "Small Startup",
+                "numberOfEmployees": 3,
+                "ceo": null,
+                "rating": 4.3
+            }
+        ]`
+        //console.log(companies);
+        console.log(JSON.parse(companies)[1].name);
+        let output = document.getElementById("output");
+        output.innerHTML = JSON.parse(companies)[1].name;
+    </script>
+    
+</body>
+</html>

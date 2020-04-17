@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Suju Ent",
+    "numberOfEmployees": 100,
+    "ceo": "Mr Cho",
+    "rating": 4.5
+  },
+  {
+    "name": "Bangtan Corporation",
+    "numberOfEmployees": 71,
+    "ceo": "Hitman",
+    "rating": 2.1
+  },
+   {
+     "name": "Big Corporation",
+     "numberOfEmployees": 1000,
+     "ceo": "Ana",
+     "rating": 3.2
+   },
+   {
+       "name": "Small Startup",
+       "numberOfEmployees": 3,
+       "ceo": null,
+       "rating": 4.3
+   }
+]
